@@ -1,0 +1,108 @@
+/* tables */
+table.tablesorter {
+	font-family:sans-serif;
+	margin:10px 0pt 15px;
+	font-size: 12px;
+	width: 100%;
+	text-align: left;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1225);
+    background-color: #fffff;
+    border: solid #fff;
+    border-radius:0px;
+}
+
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	font-size: 12px;
+	padding: 4px 4px;
+}
+table.tablesorter thead tr .header {
+	background-image: url(bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+table.tablesorter tbody td {
+	color: #F44336;
+	padding: 7px 0px;
+	background-color: #FFF;
+	vertical-align: top;
+}
+table.tablesorter tbody tr.odd td {
+	background-color:#F0F0F6;
+}
+table.tablesorter tbody tr.acc td {
+	background-color:#ADFF2F;
+}
+table.tablesorter tbody tr.acc22 td {
+	background-color: rgb(255, 255, 255);
+}
+table.tablesorter tbody tr.wa td {
+	background-color:#F08080;
+}
+table.tablesorter tbody tr.wa22 td {
+	background-color:rgb(240, 128, 128);
+}
+table.tablesorter tbody tr.prt td {
+	background-color:rgb(255, 204, 153);
+}
+table.tablesorter tbody tr.odd2 td {
+	background-color:#F0F0F6;
+	font-style: italic;
+	color: #A4A4A4;
+}
+table.tablesorter tbody tr.acc2 td {
+	background-color:#ADFF2F;
+	font-style: italic;
+	color: #A4A4A4;
+}
+table.tablesorter tbody tr.wa2 td {
+	background-color:#F08080;
+	font-style: italic;
+	color: #A4A4A4;
+}
+table.tablesorter tbody tr.ev2 td {
+	font-style: italic;
+	color: #A4A4A4;
+}
+table.tablesorter tbody tr.problem td {
+	background-color: #e6EEEE;
+	border: 1px solid #FFF;
+	font-size: 8pt;
+	font-weight: bold;
+}
+table.tablesorter tbody tr td.gg {
+	background-color:#ADFF2F;
+}
+table.tablesorter tbody tr td.gg3 {
+	background-color:#5CADFF;
+}
+table.tablesorter tbody tr td.gg2 {
+	background-color:#8ACC26;
+}
+table.tablesorter tbody tr td.yy {
+	background-color:#F2F5A7;
+}
+table.tablesorter tbody tr td.rr {
+	background-color:#F08080;
+}
+table.tablesorter tbody tr.odd td.gg {
+	background-color:#ADFF2F;
+}
+table.tablesorter tbody tr.odd td.gg3 {
+	background-color:#5CADFF;
+}
+table.tablesorter tbody tr.odd td.gg2 {
+	background-color:#8ACC26;
+}
+table.tablesorter tbody tr.odd td.rr {
+	background-color:#F08080;
+}
+table.tablesorter thead tr .headerSortUp {
+	background-image: url(asc.gif);
+}
+table.tablesorter thead tr .headerSortDown {
+	background-image: url(desc.gif);
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+background-color: #8dbdd8;
+}
